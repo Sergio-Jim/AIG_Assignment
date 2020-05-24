@@ -10,6 +10,7 @@ select!(bankDataset, Not(:default))
 select!(bankDataset, Not(:month))
 select!(bankDataset, Not(:day_of_week))
 select!(bankDataset, Not(:campain))
+#removing 
 
 #converting dataset to numeric values
 bankDataset = convert(Matrix,bankDataset)
