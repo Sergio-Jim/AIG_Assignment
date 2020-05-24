@@ -97,5 +97,3 @@ function reg_logistic_regression(X, y, λ, fit_intercept=true, η=0.01, max_iter
        end
    return (θ, minJ)
 end
-
-θ, rGradientD = reg_logistic_regression(X_train, y_train, 0.0001, true, 0.3, 3000)
