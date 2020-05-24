@@ -36,7 +36,7 @@ The Dataset has been cleaned and prepared
 """
 
 """
-Implementing the Regulizized Logical Regression Algorithm
+Implementing the Regularized Logical Regression Algorithm
 """
 #Sigmoid function
 function
@@ -55,7 +55,7 @@ function
        h= sigmoid(X * 0)
 
 #when y=1
-       yfunctionIsOne = ((1 .- y)' * log.(1 .-h))
+       yfunctionIsOne = log.(1 .-h))
 
 #lamba for regulization
        lamba = (λ/(2*m) * sum(θ[2 : end] .^ 2))
