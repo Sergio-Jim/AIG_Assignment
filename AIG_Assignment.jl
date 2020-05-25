@@ -35,7 +35,7 @@ The Dataset has been cleaned and prepared
 """
 
 """
-Done by Janny David
+done by Janny David
 """
 """
 Implementing the Regulizized Logical Regression Algorithm
