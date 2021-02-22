@@ -1,2 +1,3 @@
-# AIG_Assignment
-The Artificial Intelligence &amp; Computer Graphics assignment 1 repository
+# AIG_Regression and Classification Models
+The Artificial Intelligence and Computer Graphics.
+Project is incomplete. This is just a structure with some formulars and algorithms
